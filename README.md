@@ -22,8 +22,7 @@ db:setup
 <h4>Devise + Cancan</h4>
 <p>This deadly combo is used for user authorization and authentication.</p>
 <p>Currently only admin users are given <strong>all</strong> the access. You can add up more access definitions in app/models/ability.rb</p>
-
-<p>Default user is created. See config/application.yml for more settings.</>
+<p>Default user is created. See config/application.yml for more settings.</p>
 
 <h4>Dynamic Role Creation</h4>
 <p>You can add as many roles you want and define its access scopes in Ability class. Currently only admin users are given the access of role creation.</p>
