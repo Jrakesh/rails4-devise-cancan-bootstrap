@@ -1,4 +1,5 @@
 <h1>rails4-devise-cancan-bootstrap</h1>
+<a href="https://codeclimate.com/github/Jrakesh/rails4-devise-cancan-bootstrap"><img src="https://codeclimate.com/github/Jrakesh/rails4-devise-cancan-bootstrap.png" /></a>
 
 <p>This is a <strong>rails v4.0.2</strong> app and can be used as a starter-kit for your own app. 
 <p>Points to ponder:</p>
