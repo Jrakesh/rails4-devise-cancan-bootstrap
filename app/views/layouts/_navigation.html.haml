@@ -1,0 +1,15 @@
+= nav_bar responsive: true, inverse: true , fixed: :top, brand: "Rails4-Devise-Cancan-Bootstrap" do
+  = menu_group do
+    = menu_item "Home", root_path
+    = menu_item "Users", users_path
+    = menu_item "Roles", roles_path
+  = menu_group pull: :right do
+    - if user_signed_in?
+      %li
+        %a 
+          %strong Logged in as #{current_user.email}
+      = menu_item 'Edit profile', edit_user_registration_path
+      = menu_item "Logout", destroy_user_session_path, method: :delete
+    - else
+      = menu_item "Sign Up", new_user_registration_path
+      = menu_item "Login", new_user_session_path

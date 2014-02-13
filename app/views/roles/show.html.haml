@@ -1,0 +1,9 @@
+%h3 Role Name
+%p 
+  = @role.name.titleize if @role.name
+%br
+= link_to 'Edit', edit_role_path(@role)
+\|
+= link_to 'Back', roles_path
+
+

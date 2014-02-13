@@ -1,0 +1,9 @@
+.form-horizontal
+  = simple_form_for(@role) do |f|
+    = f.error_notification
+    .form-group
+      .col-sm-offset-1.col-sm-10
+        = f.input :name, class: 'form-control'
+    .form-group
+      .col-sm-offset-1.col-sm-10
+        = f.button :submit, class: 'btn btn-primary'
