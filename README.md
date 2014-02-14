@@ -15,7 +15,7 @@
 <h5>In the command line run:</h5> 
 <pre>
 bundle
-db:setup
+rake db:setup
 </pre>
 
 <p>This will install the gems specified in <strong>Gemfile</strong> and create the tables in the database (please change the <strong>config/database.yml</strong> to set your configuration)</p>
